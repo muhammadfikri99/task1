@@ -68,7 +68,7 @@ function validasi(form) {
 
 //gambar geleri
 var target_gambar = document.getElementById('target_gambar');
-var array_gambar = document.getElementById('karya_lain').children;
+var array_gambar = document.getElementById('karya_lain');
 var no_sekarang = 0;
 
 function ganti_gambar(gambar) {
