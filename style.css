@@ -1,0 +1,321 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Oswald', sans-serif;
+    /* font-family: 'Sansita Swashed'; */
+    font-weight: normal;
+    max-width: 100% !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+/*--Bagian Petama--*/
+
+#pertama {
+    background: url('images/lensa-3.png') no-repeat;
+    background-size: cover;
+    -webkit-backdrop-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -moz-background-size: cover;
+    height: 650px;
+    padding-top: 20px;
+}
+
+.konten {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.clear {
+    clear: both;
+}
+
+.kolom_3 {
+    width: 31%;
+    float: left;
+}
+
+.kolom_3_tengah {
+    margin: 0 3%;
+}
+
+#logo {
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+}
+
+#menu {
+    background-color: rgb(16, 55, 16);
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#menu a {
+    display: block;
+    text-align: center;
+    color: rgb(36, 223, 19);
+}
+
+#menu a:hover {
+    background-color: white;
+}
+
+#menu-text {
+    display: none;
+    color: white;
+    padding-left: 10px;
+}
+
+#box_sd {
+    background-color: darkgreen;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin: 80px 0;
+    padding: 20px 0;
+}
+
+#box_sd a {
+    display: block;
+    border: 2px solid green;
+    color: white;
+    padding: 5px 0;
+    width: 300px;
+    margin: 25px auto 0 auto;
+}
+
+#box_sd a:hover {
+    background-color: rgb(9, 63, 6);
+    color: rgb(255, 255, 255);
+}
+
+
+/*--bagian 2--*/
+
+#kedua {
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+h2 {
+    font-size: 40px;
+    padding: 30px 0 45px 0;
+    width: 250px;
+    margin: 0 auto;
+}
+
+#kedua img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.gambar_lensa {
+    position: relative;
+}
+
+.gambar_lensa p {
+    position: absolute;
+    top: 0px;
+    left: 25px;
+    width: 250px;
+    height: 250px;
+    line-height: 250px;
+    text-align: center;
+    font-size: 25px;
+    background-color: rgba(26, 74, 12, 0.8);
+    color: seagreen;
+    border-radius: 50%;
+    display: none;
+}
+
+.gambar_lensa:hover p {
+    display: block;
+}
+
+.deskripsi {
+    font-size: 22px;
+}
+
+
+/*--bagian 3--*/
+
+.kolom_2 {
+    float: left;
+    width: 46%;
+    margin: 0 1.5%;
+}
+
+#ketiga input,
+#ketiga textarea {
+    display: block;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 12px;
+    border: 2px solid green;
+}
+
+#ketiga textarea {
+    height: 130px;
+}
+
+input[type="submit"]:hover,
+.panah_box:hover {
+    cursor: pointer;
+    background-color: rgb(31, 143, 31);
+}
+
+#ketiga iframe {
+    max-width: 450px;
+}
+
+
+/*--bagian folio--*/
+
+.panah_box {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    color: white;
+    background-color: green;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 200px;
+}
+
+#karya_box {
+    width: 800px;
+    margin: 0 20px;
+}
+
+.panah_box,
+#karya_box,
+#karya_box_kr,
+#karya_box_knn {
+    float: left;
+}
+
+#karya_box_knn {
+    width: 500px;
+    height: 350px;
+}
+
+#karya_box_kr {
+    width: 280px;
+    padding: 30px 10px 0 10px;
+    height: 320px;
+    background-color: green;
+    color: white;
+}
+
+#karya_box_kr h3 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+#karya_box_kr .deskripsi {
+    font-size: 18px;
+}
+
+#karya_lain {
+    width: 350px;
+    margin: 50px auto 0 auto;
+}
+
+#karya_lain img {
+    display: block;
+    float: left;
+    width: 100px;
+    margin-left: 10px;
+}
+
+.error {
+    color: red;
+    margin-top: -12px;
+}
+
+
+/*--bagian footer**/
+
+#footer {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+
+/*---------Responsive-------------*/
+
+#box_sd {
+    font-size: 26px;
+}
+
+h2 {
+    font-size: 34px;
+}
+
+.gambar_lensa p {
+    position: static;
+    margin: 0 auto;
+    display: block;
+    height: auto;
+    color: white;
+    background-color: transparent;
+    line-height: normal;
+}
+
+@media only screen and (max-width:480) {
+    .kolom_3,
+    .kolom_2 {
+        width: 90%;
+        margin: 0 auto;
+        float: none;
+    }
+}
+
+#box_sd {
+    font-size: 13px;
+    margin: 10px 0;
+}
+
+#pertama {
+    height: auto;
+}
+
+h2 {
+    font-size: 34px;
+}
+
+#kedua img {
+    width: 200px;
+    height: 200px;
+}
+
+#kedua p {
+    font-size: 18px;
+}
+
+#kedua .kolom_3 {
+    max-width: 10px auto;
+}

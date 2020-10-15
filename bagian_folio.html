@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<Head>
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Sansita+Swashed:wght@300&display=swap" rel="stylesheet" type="text/css">
+</Head>
+
+<body>
+    <div style="padding-top:20px"></div>
+
+    <div id="header">
+        <img src="images/Pirl-icon.png" id="logo" alt="">
+        <div id="menu">
+            <div class="konten">
+                <a href="#pertama" class="kolom_3">Beranda</a>
+                <a href="#kedua" class="kolom_3 kolom_3_tengah">Karya</a>
+                <a href="#ketiga" class="kolom_3">kontak</a>
+            </div>
+        </div>
+    </div>
+    <div style="margin-top:50px"></div>
+
+    <div class="konten">
+
+
+        <div class="panah_box" onclick="ganti_sebelum()">></div>
+
+        <div id="karya_box">
+
+            <div id="karya_box_kr">
+                <h3>New Lensa</h3>
+                <p class="deskripsi"> Lensa Terbaru yang dimiliki Whis Toko </p>
+            </div>
+
+            <div id="karya_box_knn">
+                <img src="images/lensa-3.png" alt="" id="target_gambar">
+            </div>
+
+        </div>
+    </div>
+
+    <div class="panah_box" onclick="ganti_berikut()">></div>
+
+    <div class="clear"></div>
+
+    <div id="karya_lain">
+        <img src="images/lensa-3.png" alt="" onclick="ganti_gambar(this)" class="0">
+        <img src="images/pertama.jpg" alt="" onclick="ganti_gambar(this)" class="1">
+        <img src="images/ketiga.jpg" alt="" onclick="ganti_gambar(this)" class="2">
+    </div>
+
+
+    <div class="clear"></div>
+
+    <div id="footer">
+        <p>&copy;Whis Lensa 2020 </p>
+    </div>
+    <script src="folio.js"></script>
+</body>
+
+</html>
